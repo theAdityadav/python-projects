@@ -3,10 +3,8 @@ import random
 def number_guessing_game():
     # Generate a random number between 1 and 100
     number_to_guess = random.randint(1, 100)
-
-    # Initialize the number of attempts
-    attempts = 0
-
+     attempts = 0 # Initialize the number of attempts
+   
     print("Welcome to the Number Guessing Game!")
     print("I'm thinking of a number between 1 and 100.")
 
